@@ -17,6 +17,6 @@ console.log("\nTreebank Word Tokenizer:");
 console.log(tokenizer.tokenize("I don't like cats."));
 
 // Regexp Tokenizer
-tokenizer = new natural.RegexpTokenizer({pattern: /\-/});
+tokenizer = new natural.RegexpTokenizer({pattern: /[7-9]/});
 console.log("\nRegexp Tokenizer:");
-console.log(tokenizer.tokenize("user-generated"));
+console.log(tokenizer.tokenize("53419305738105"));
