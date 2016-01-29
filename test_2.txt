@@ -1,0 +1,1 @@
+Javascript is cool. Exspecially if you use node.js and write javascript code for natural.js.
