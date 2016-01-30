@@ -5,8 +5,8 @@ var natural = require('natural');
 var metaphone = natural.Metaphone;
 var soundEx = natural.SoundEx;
 
-var wordA = 'Katharina';
-var wordB = 'Catherine';
+var wordA = 'sign';
+var wordB = 'scion';
 
 // SoundEx
 console.log("\nSoundEx algorithm: ");

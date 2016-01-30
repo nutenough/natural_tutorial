@@ -21,7 +21,7 @@ tfidf.tfidfs('javascript', function(i, measure) {
 tfidf.addFileSync('test_1.txt');
 tfidf.addFileSync('test_2.txt');
 
-console.log('\nWort \"javascript\"');
+console.log('\nWort \"texttechnology\"');
 tfidf.tfidfs('texttechnology', function(i, measure) {
     console.log('document #' + i + ' is ' + measure);
 });

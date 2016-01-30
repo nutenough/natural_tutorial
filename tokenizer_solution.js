@@ -20,5 +20,5 @@ console.log(JSON.stringify( tokenizer.tokenize(text) ));
 
 //["Im","übrigen","bin","ich","der","Meinung","daß","Karthago","zerstört","werden","muss"]
 text = "Im übrigen bin ich der Meinung, daß Karthago zerstört werden muss.";
-tokenizer = new natural.RegexpTokenizer({pattern: /[^a-zA-UäöüÄÖÜß]+/});
+tokenizer = new natural.RegexpTokenizer({pattern: /[^a-zA-ZäöüÄÖÜß]+/});
 console.log(JSON.stringify( tokenizer.tokenize(text) ));

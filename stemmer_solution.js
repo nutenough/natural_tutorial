@@ -1,7 +1,7 @@
 var natural = require("natural");
 
 
-var enText = "no etymological principle was followed here: " +
+var enText = "No etymological principle was followed here: " +
     "in some cases it was the original noun that was chosen for retention, " +
     "in other cases the verb. Even where a noun and verb of kindred meaning " +
     "were not etymologically connected, one or other of them was frequently supressed. " +
@@ -19,50 +19,6 @@ console.log("-----------------------------------------------");
 natural.LancasterStemmer.attach();
 
 console.log(enText.tokenizeAndStem().join(" "));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-return;
 
 var GermanStemmer = require("./german_stemmer");
 GermanStemmer.attach();

@@ -30,6 +30,8 @@ natural.PorterStemmer.attach();
 var tokens = enText.tokenizeAndStem();
 var tokensLookedUp = 0;
 
+console.log(tokens.join(" "));
+
 for(var i = 0; i < tokens.length; ++i) {
     (function(i) {
         var lemma = wordnet.lookup(tokens[i], function(result) {
